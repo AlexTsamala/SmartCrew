@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700&family=Instrument+Sans:wght@400;600;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    background: #FAFAFA;
+    font-family: "Instrument Sans";
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Preview */
+
+.header{
+    border-radius: 0px 0px 32px 32px;
+    height: 357px;
+    background-color: #633CFF;
+    position: relative;
+    top: 0;
+}
+
+.navbar{
+    max-width: 1392px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav-wraper{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 24px);
+    border-radius: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+  
+}
+.preview-btn{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    padding: 11px 27px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 16px 16px 16px 24px;
+}
+.back-to-editor{
+    color: #633CFF;
+    border: solid 1px #633CFF;
+}
+.share-link{
+    color: white;
+    background-color: #633CFF;
+}
+
+.profile-box{
+    position: fixed;
+    max-width: 349px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+    left: 50%;
+    top: 106px;
+    transform: translate(-50%, 82px);
+}
+
+.profile-about{
+    max-width: 237px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profile-picture{
+    max-width: 104px;
+    width: 100%;
+    height: 104px;
+    border-radius: 50%;
+    border: solid 4px #633CFF;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.profile-picture img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.username{
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+}
+
+.profile-email{
+    margin-top: 8px;
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.social-links{
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 56px;
+    margin-bottom: 48px;
+}
+.social-link-left{
+    display: flex;
+    align-items: center;
+}
+.social-link{
+    width: 100%;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+ 
+.social-title{
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+    margin-left: 8px;
+}
+.github-link{
+    background-color: #1A1A1A;
+}
+.Youtube-link{
+    background-color: #EE3939;
+}
+.LinkedIn-link{
+    background-color: #2D68FF;
+}
+
+
+.copy-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 397px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 12px;
+    background: #333;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+    position: absolute;
+    padding: 16px 24px;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%);
+    display: none;
+}
+.copy-link p{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 600;
+}
+ 
+
+/* Login */
+
+
+.logo-devlink{
+    text-align: center;
+}
+
+.main-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.forms{
+    max-width: 476px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 51px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.forms-title{
+    padding-top: 40px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.forms-detail{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.form-container{
+    max-width: 396px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.label-text{
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.input-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 396px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+    padding: 12px 16px 12px 16px;
+    margin-bottom: 24px;
+    transition: all 0.3s;
+}
+.input-left{
+    display: flex;
+    align-items: center;
+}
+.input-right{
+    display: flex;
+    
+}
+.input-left img{
+    margin-right: 12px;
+}
+input{
+    max-width: 162px;
+    width: 100%;
+    background: none;
+    border: none;
+    all: unset;
+}
+.error-input{
+    max-width: 162px;
+    width: 100%;
+    font-size: 12px;
+    color: #FF3939;
+    display: none;
+}
+input::placeholder{
+    font-size: 16px;
+}
+.input-form:hover{
+    border: 1px solid #633CFF;
+    background: #FFF;
+    box-shadow: 0px 0px 32px 0px rgba(99, 60, 255, 0.25);
+} 
+
+.forms-button{
+    width: 100%;
+    padding: 11px 27px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #633CFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.forms-button:hover{
+    box-shadow: 0px 0px 32px 0px rgba(99, 60, 255, 0.25);
+    background-color: #BEADFF;
+}
+
+.characters{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 12px;
+    color: #737373;
+}
+.account{
+    margin-top: 24px;
+    padding-bottom: 40px;
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.account a{
+    color: #633CFF;
+    text-decoration: none;
+}
+@media (max-width: 1920px) {
+    .nav-wraper{
+        width: 95%;
+    }
+    
+}
+ 
+
+
+@media (max-width: 480px){
+    .copy-link{
+        max-width: 297px;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .copy-link p{font-size: 12px;}
+    .main-section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* navbar */
+    .nav-wraper{
+        
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+        top: 0;
+        background: none;
+        margin: 0 auto;
+    }
+    .preview-btn{
+        margin: 0;
+        margin-top: 16px;
+ 
+    }
+    .header{
+        background: none;
+    }
+    .profile-box{
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+        top: 0;
+        background: none;
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 375px){
+     
+    .main-section{
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+        top: 0;
+        max-width: 376px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+    .forms{
+        padding: 0;
+        margin: 0;
+    }
+    .logo-devlink{
+        text-align: left;
+    }
+    .forms-title{
+        font-size: 24px;
+    }
+    .login-detail{
+        font-size: 16px;
+    }
+
+    .account-creation{
+        max-width: 200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

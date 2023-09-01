@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>link-sharing-app</title>
+  </head>
+  <body>
+
+    <div class="main-section container">
+      <div class="logo-devlink">
+        <img class="logo" src="./assets/images/logo-devlinks-large.svg" alt="logo">
+      </div>
+
+        
+      <div class="forms">
+        <div class="form-container">
+          <h1 class="forms-title">Login</h1>
+          <p class="forms-detail">Add your details below to get back into the app</p>
+          <form id="input-form">
+            <div class="form-wraper">
+              <label class="label-text" for="email">Email address</label>
+              <div class="input-form">
+                <div class="input-left">
+                  <img src="assets/images/icon-email.svg" alt="email-svg">
+                  <input class="input" type="email" name="email" id="email" placeholder="e.g. alex@email.com">
+                </div>
+                <div class="input-right">
+                  <p class="error-input" id="email-error">Can’t be empty</p>
+                </div>
+              </div>
+            </div>
+            <div class="form-wraper">
+              <label class="label-text" for="password">Password</label>
+              <div class="input-form">
+                <div class="input-left">
+                  <img src="assets/images/icon-password.svg" alt="password-svg">
+                  <input class="input" type="password" name="password" id="password" placeholder="Enter your password">
+                </div>
+                <div class="input-right">
+                  <p class="error-input" id="password-error">Please check again</p>
+                </div>
+              </div>
+            </div>
+            <div class="form-wraper">
+              <button class="forms-button">Login</button>
+            </div>
+          </form>
+        </div>
+        <div class="account-creation">
+          <p class="account">Don’t have an account? <a href="register.html">Create account</a></p>
+        </div>
+      </div>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
