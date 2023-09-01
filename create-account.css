@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Instrument Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: -75px;
+}
+
+.nav-icon {
+    margin-right: 5px;
+    width: 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.47rem;
+}
+
+.create-account-h2 {
+    color: var(--dark-grey, #333);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+p {
+    color: var(--grey, #737373);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.box-type-p {
+    color: var(--dark-grey, #333);
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-bottom: 5px;
+}
+
+.input-style {
+    border-radius: 0.5rem;
+    width: 20rem;
+    border: 1px solid var(--borders, #D9D9D9);
+    background: var(--white, #FFF);
+    display: flex;
+    padding: 0.75rem 2rem;
+    align-items: center;
+    gap: 0.75rem;
+    align-self: stretch;
+}
+
+.input-style:hover {
+    border: 1px solid #633CFF;
+    background: #FFF;
+    box-shadow: 0px 0px 32px 0px rgba(99, 60, 255, 0.25);
+}
+
+.warning-p-email {
+    color: red;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+    top: -30px;
+    margin-bottom: -18px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 15px;
+    flex-direction: column;
+}
+
+.warning-p-password {
+    color: red;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+    top: -30px;
+    margin-bottom: -18px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 15px;
+    flex-direction: column;
+}
+
+.warning-p-confirm {
+    color: red;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+    top: -30px;
+    margin-bottom: -18px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 15px;
+    flex-direction: column;
+}
+
+.display-none-email {
+    display: none;
+}
+
+.display-none-password {
+    display: none;
+}
+
+.display-none-confirm {
+    display: none;
+}
+
+.empty-input-warning {
+    border: 1px solid var(--borders, red);
+}
+
+.email-icon {
+    position: relative;
+    top: -28px;
+    left: 12px;
+}
+
+.second-position-email {
+    position: relative;
+    top: -28px;
+}
+
+.second-position-password {
+    position: relative;
+    top: -29px;
+}
+
+.second-position-confirm {
+    position: relative;
+    top: -28px;
+}
+
+.create-account-btn {
+    width: 20rem;
+    margin-top: 1.5rem;
+    display: flex;
+    padding: 0.6875rem 1.6875rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--purple, #633CFF);
+    color: var(--white, #FFF);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.create-account-btn:hover {
+    box-shadow: 0px 0px 32px 0px rgba(99, 60, 255, 0.25);
+    background-color: #BEADFF;
+}
+
+footer {
+    width: 20rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    align-items: center;
+    color: var(--purple, #633CFF);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 820px) and (max-width: 1440px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 100vh; 
+    }
+
+    nav {
+        position: relative;
+        left: 1px;
+    }
+
+    .create-account-h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .input-style {
+        width: 24.75rem;
+    }
+
+    .create-account-btn {
+        width: 24.75rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    a {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (min-width: 1440px ) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 100vh; 
+    }
+
+    nav {
+        position: relative;
+        left: 1px;
+    }
+
+    .create-account-h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .input-style {
+        width: 24.75rem;
+    }
+
+    .create-account-btn {
+        width: 24.75rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    a {
+        margin-left: 5px;
+    }
+    
+    .input-style:focus {
+        border-color:#633CFF
+    }
+    
+    .create-account-btn {
+        cursor: pointer;
+    }
+}
+
+
+
